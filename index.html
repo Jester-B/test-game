@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Random Number generator -->
+
+        <div class="player1-container">
+            <h1>Player 1 Guess</h1>
+            <ol id="player1Guess"></ol>
+        </div>
+
+        <div class="container">
+            <h1 id="title">Game Name: GuessIt!</h1><br><br>
+    
+    
+            <p id="turnInfo">Player's 1 Turn</p>
+    
+            <input type="text" id="number" placeholder="Enter a number from 1-5"> <br><br>
+            <label id="displayGuess"></label><br><br>
+    
+    
+    
+            <div class="button-container">
+                <button id="generate">
+                    Guess
+                </button>
+        
+                <button id="resetNumber">Reset</button>
+            </div>
+    
+            <p id="winner"></p>
+        </div>
+
+        <div class="player2-container">
+            <h1>Player 2 Guess</h1>
+            <ol id="player2Guess"></ol>
+        </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
