@@ -1,3 +1,1 @@
-This file contains a simple guessing game
-This is a two player game that alternate the guessing
-The most player guess the correct answer will win or else they will tie.
+Put your guessing skills to the test in this exciting two-player game! Players take turns guessing the correct answer, competing to see who can make the most accurate guesses. The player with the most correct answers wins—but if both players score equally, it's a tie! Simple, fun, and competitive, this game is perfect for quick challenges with friends. Who will be the ultimate Guess Master?
