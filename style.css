@@ -86,12 +86,12 @@ button:hover {
         align-items: center;
         height: 100vh;
         margin: 0;
-        gap: 10px;
+        gap: 20px;
         flex-direction: column;
     }
 
     .container {
-        width: 70%;
+        width: 60%;
         font-size: .50rem;
         background: #222;
         padding: 10px;
@@ -170,7 +170,7 @@ button:hover {
         align-items: center;
         height: 100vh;
         margin: 0;
-        gap: 10px;
+        gap: 20px;
         flex-direction: column;
     }
 
