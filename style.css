@@ -92,7 +92,7 @@ button:hover {
 
     .container {
         width: 60%;
-        font-size: .50rem;
+        font-size: .85rem;
         background: #222;
         padding: 10px;
         border-radius: 10px;
@@ -101,7 +101,7 @@ button:hover {
 
     .player1-container, .player2-container {
         width: 40%;
-        font-size: .50rem;
+        font-size: .60rem;
         background: #222;
         padding: 10px;
         border-radius: 10px;
@@ -176,7 +176,7 @@ button:hover {
 
     .container {
         width: 50%;
-        font-size: .50rem;
+        font-size: .85rem;
         background: #222;
         padding: 10px;
         border-radius: 10px;
@@ -185,7 +185,7 @@ button:hover {
 
     .player1-container, .player2-container {
         width: 30%;
-        font-size: .50rem;
+        font-size: .60rem;
         background: #222;
         padding: 10px;
         border-radius: 10px;
