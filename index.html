@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guess a Number Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    class="bg-[#111] text-[#fff] flex justify-center items-center h-screen gap-20 text-center
+        sm:gap-7
+        md:gap-7
+        lg:gap-10
+        xl:gap-10
+        2xl:gap-15
+    "
+  >
     <!-- Random Number generator -->
+    <!-- Player 1 container -->
+    <div class="bg-[#222]  p-6 rounded-md shadow-[0_0_10px_#0092cc]
+        sm:w-[20%] 
+        md:w-[20%]
+        lg:w-[20%]
+        xl:w-[20%]
+        2xl:w-[20%]
+        ">
 
-        <div class="player1-container">
-            <h1>Player 1</h1>
-            <ol id="player1Guess"></ol>
+        <h1 class="text-xl">Player 1</h1>
+        <ol
+        id="player1Guess"
+        class="text-cyan-200 mt-3 text-sm"
+        ></ol>
+
+    </div>
+
+    <!-- Container -->
+    <div
+        class="bg-[#222] p-5 h-85 rounded-md shadow-[0_0_10px] shadow-cyan-600
+        sm:w-[45%]
+        md:w-[45%]
+        lg:w-[35%]
+        xl:w-[25%]
+        2xl:w-[25%]
+        "
+    >
+        <h1 h1 id="title" class="text-lg">Game Name: Guess It!</h1>
+        <br /><br />
+
+        <p id="turnInfo">Player's 1 Turn</p>
+        <input
+            class="indent-2 mt-2 border-cyan-200 border-1 h-8 w-[90%] mx-auto rounded-sm focus:outline-cyan-200 focus:outline-1"
+            id="number"
+            placeholder="Enter a number from 1-5"
+        />
+
+        <br /><br />
+
+        <label id="displayGuess"></label><br /><br />
+
+        <div class="flex justify-around align-center">
+            <button
+                id="generate"
+                class="border-1 border-cyan-200 rounded-sm w-26 h-8 hover:bg-cyan-200 hover:text-[#111]"
+            >
+                Guess
+            </button>
+
+            <button
+                id="resetNumber"
+                class="border-1 border-cyan-200 rounded-sm w-26 h-8 hover:bg-cyan-200 hover:text-[#111]"
+            >
+                Reset
+            </button>
         </div>
 
-        <div class="container">
-            <h1 id="title">Game Name: GuessIt!</h1><br><br>
-    
-    
-            <p id="turnInfo">Player's 1 Turn</p>
-    
-            <input type="text" id="number" placeholder="Enter a number from 1-5"> <br><br>
-            <label id="displayGuess"></label><br><br>
-    
-    
-    
-            <div class="button-container">
-                <button id="generate">
-                    Guess
-                </button>
-        
-                <button id="resetNumber">Reset</button>
-            </div>
-    
-            <p id="winner"></p>
-        </div>
+        <p id="winner" class="mt-8"></p>
+    </div>
 
-        <div class="player2-container">
-            <h1>Player 2</h1>
-            <ol id="player2Guess"></ol>
-        </div>
+
+    <!-- player 2 container -->
+    <div class="bg-[#222] p-6 rounded-md shadow-[0_0_10px_#0092cc]
+        sm:w-[20%]
+        md:w-[20%]
+        lg:w-[20%]
+        xl:w-[20%]
+        2xl:w-[20%]
+        ">
+
+        <h1 class="text-xl">Player 2</h1>
+        <ol id="player2Guess" class="text-cyan-200 mt-3 text-sm"></ol>
+
+    </div>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
